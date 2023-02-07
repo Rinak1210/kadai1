@@ -1,0 +1,477 @@
+html {
+  font-size:100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border:0;
+  vertical-align: middle;
+}
+
+  
+  /* ヘッダー */
+  
+header {
+  width:100%;
+  position: absolute;
+}
+
+.header_header {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 36px;
+  max-width: 100%;
+  position: relative;
+  align-items:center;
+}
+
+
+
+  
+  /* ホームロゴ */
+ 
+  
+  .area_logo_header.logo {
+    cursor:pointer;
+    align-items:center;
+  }
+  
+  .logo_pc{
+    display: block;
+    height:20px;
+    width:auto;
+  }
+  
+  
+  
+  .logo img:hover {
+    opacity: 0.7;
+  }
+  
+  .logo_sp {
+    display: none;
+  }
+  
+  /* ナビゲーション */
+  
+  nav {
+    box-sizing: border-box;
+    cursor: pointer;
+    display:flex;
+  }
+  
+  
+  
+  .menu {
+    display: flex;
+    align-items:center;
+    font-size:13px;
+    font-weight: bold;
+    list-style: none;
+  }
+  
+  
+  .menu li {
+    margin-right:35px;
+    
+  }
+  
+  .menu li:hover {
+    opacity: 0.7;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .menu li span {
+    display: block;
+    text-align: center;
+  }
+  
+  .menu li span:last-child {
+    font-size: 10px;
+  }
+  
+  .btn_contact {
+    display: flex;
+    align-items:center;
+    height: 40px;
+    width:100%;
+    font-size: 12px;
+    background-color: #F79214;
+    border-radius:40px;
+  }
+  
+  .btn_contact span{
+    padding:0 20px;
+    color:#FFFFFF;
+    letter-spacing:0.5px;
+  }
+  
+  .burger {
+    display:none;
+    cursor:pointer;
+    position:relative;
+    z-index: 100;
+    vertical-align: middle;
+  }
+  
+  .burger div {
+    width:30px;
+    height:3px;
+    background-color:black;
+    margin: 6px;
+    border-radius: 10px;
+   
+  }
+  
+    /*    メイン   */
+    
+  
+  
+  .first_view {
+  background-image: url(//camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+  width:100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  padding-bottom: 25px;
+  
+  }
+  
+ 
+  
+  .main_img_sp {
+    display: none;
+  }
+
+  
+  .first_section {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 40px;
+    margin-left: 30px;
+    width: fit-content;
+    position: relative;
+    
+  }
+  
+  
+  .first_section_content {
+    font-size: 36px;
+    text-align:center;
+    margin-bottom:14px;
+  }
+  
+  
+  
+  .main_buttons {
+    align-items: center;
+    position: absolute;
+    margin-top: 30px;
+    display:flex;
+  }
+  
+  .main_buttons a {
+    text-decoration: none;
+  }
+  
+  
+  .main_buttons a:hover {
+    opacity: 0.7;
+  }
+  
+  .btn_contact_to {
+    color:#FFFFFF;
+    background-color: #F79214;
+    border-radius:40px;
+    padding:20px 35px;
+    margin-right:20px;
+    display: flex;
+    
+  }
+  
+  .btn_contact_to a {
+    font-size: 16px;
+  }
+  
+  .btn_document {
+    color:black;
+    background-color: #FFFFFF;
+    border-radius:40px;
+    padding:20px 16px;
+    border: 1px solid #c9c5c5;
+  }
+  
+  .btn_document a {
+     font-size: 16px;
+     
+  }
+  
+  .note  {
+    font-size: 12px;
+    color:#bfbbbb;
+    margin:100px 0 30px 100px;
+  }
+  
+  .terms {
+    text-decoration: none;
+    color:#bfbbbb;
+  }
+  
+  /*     youtubeゾーン    */
+  
+  .about_wrapper {
+  background-color: #f79214;
+  padding: 44px 0;
+  color: white;
+  }
+  
+  .about_section {
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .about_video {
+    width: 50%;
+  }
+  
+  
+  .about_title {
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    align-items: flex-start;
+    margin-bottom: 0;
+    margin-left: 32px;
+  }
+  
+  .about_title h2 {
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: .1em;
+    line-height: 54px;
+    width: 100%;
+  }
+  
+  .about_title p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 16px;
+    display: inline-block;
+  }
+  
+  
+  
+  .about_button {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+  }
+  
+  .about_button img {
+    margin-right: 5px;
+    border: 0;
+    vertical-align: middle;
+  }
+  
+  
+  
+  /*  ここからレスポンシブ　  */
+  
+  
+
+  /* 1080px　　タブレット向け　　 */
+  @media screen and (max-width: 1080px){
+  
+  
+  .header_header {
+    position: fixed !important;
+    background-color: #FFF;
+    z-index: 10;
+  }
+  
+  .first_view {
+    width:100%;
+    top: 0;
+  }
+  
+  
+  .menu {
+    display: none;
+  }
+  
+  .burger {
+    display: block;
+  }
+  
+  .about_section {
+    flex-direction:column;
+  }
+  
+  .about_video {
+    width: 75%;
+    margin-bottom: 16px;
+  }
+  
+  .about_title {
+    margin-left: 0;
+    width: 75%;
+  }
+  
+  
+  }
+  
+  
+  
+
+
+
+  /* 　767px　モバイル向け　　 */
+  @media screen and (max-width:767px) {
+  
+  body {
+    overflow-x:hidden;
+  }
+  
+  .header_header {
+    max-width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  
+  
+  .menu {
+    display: none;
+  }
+  
+  .logo_pc {
+    display: none;
+  } 
+   
+  .logo_sp {
+    display: block;
+    height: 16px;
+    width: auto;
+  }
+  
+   
+  .first_view {
+    background-image:none;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  
+  
+  .main_img_sp {
+    display: block;
+    width: 100%;
+  }
+  
+  .first_section {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 100% !important;
+  }
+  
+  .first_section {
+    margin-top: -45vw;
+  }
+  
+  .first_section_content {
+    width:90%;
+    font-size: 25px;
+    line-height: 36px;
+  }
+  
+    
+  .highlight_img {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 90%;
+  }
+  
+  .highlight_img1 {
+    width:27.5%;
+  }
+  
+  .highlight_img2 {
+    width: 40%;
+  }
+  
+  .highlight_img3 {
+    width:27.5%;
+  }
+  
+  .main_buttons {
+    width: 100%;
+  }
+  
+  .main_buttons a{
+    width: 75%;
+    position:absolute;
+  }
+  
+  .btn_contact_to {
+    display: block;
+    text-align: center;
+  }
+  
+ 
+  
+
+  .btn_document {
+    display: none;
+  } 
+  
+  .about_wrapper {
+    padding: 30px 0;
+  }
+  
+  .about_video {
+    width:100%;
+  }
+  
+  .about_section {
+    flex-direction:column;
+  }
+  
+  
+  .about_title {
+    margin-bottom: 0;
+    width: 100%;
+    
+  }
+  
+  
+  }
+  
